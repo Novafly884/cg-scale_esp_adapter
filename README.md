@@ -46,7 +46,7 @@ Die unteren Beschriftungen weisen Bezeichner auf, die auch auf euren Bauteilen z
 + DAT = Cx (Daten)
 + CLK = Tx (Takt)
 
-Weiterhin findet sich oberhalb der Anschlussplätze die Angabe der Pin-Nummern an der MCU (D3, D4, Dx...) für die erleichterte Konfiguration der entsprechenden Eingangs- und Ausgangs-Pinsin in der Software.
+Weiterhin findet sich oberhalb der Anschlussplätze die Angabe der Pin-Nummern an der MCU (D3, D4, Dx...) für die erleichterte Konfiguration der entsprechenden Eingangs- und Ausgangs-Pins in der Software.
 
 *Quick-Tipp: Sollte trotz korrekter Verkabelung euer Display nichts anzeigen, bitte einmal den Controllertyp in der "U8g2lib.h" in eurem Code kontrollieren! ;)*
 
