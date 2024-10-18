@@ -34,7 +34,7 @@ C1 & C2 dienen zur Spannungsstabilisierung bzw. Filterung von Peaks auf der Vers
 Die Anschlüsse für das Display (DISP) und die Wägezellen (LCx) können mit allen 2,54mm-Stecksystemen (Rastermaß) ausgeführt werden. Beispiele dafür wären übliche Stiftleisten oder die JST XH-Stecksysteme, da diese auch vom Bauraum her recht klein sind. Ein direktes Anlöten der Leitungen zu den HX711-Messwandlern ist selbstverständlich möglich, wobei dann der Komfort der steckbaren Lösung "verloren" geht. 
 
 ## Maße / Bohrabstände
-- Platinengröße: 73 x 46 mm.
+- Platinengröße: 73 x 46 x 1,6mm.
 - Raster der Befestigungsbohrungen: 63 x 36 mm (Bohrungsdurchmesser = 2,8 mm).
   Der Isolationsbereich an den Befestigungen hat einen Durchmesser von ~5,9 mm.
 
