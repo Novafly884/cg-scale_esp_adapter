@@ -21,7 +21,7 @@ Link RC-Network: https://www.rc-network.de/threads/schwerpunkt-waage-mit-arduino
 | :--- | :--- | :--- | :--- | :--- |
 | MCU | - | - | NodeMCU (ESP8266, ESP-12E) | - |
 | R1 | 20 kOhm |	10 mm |	1%, Metallschicht-Widerstand | Optional |
-| R1 | 10 kOhm |	10 mm |	1%, Metallschicht-Widerstand | Optional |
+| R2 | 10 kOhm |	10 mm |	1%, Metallschicht-Widerstand | Optional |
 | C1 | 220 µF |	2,54 mm |	Kondensator, gepolt (Elko), 16 Volt | Optional |
 | C2 | 100 nF |	2,54 mm |	Kondensator | Optional |
 | DISP; LC1-LC3 | - |	2,54 mm |	4-pol. *JST XH2.54* | - |
