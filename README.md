@@ -79,7 +79,6 @@ Alternativ kann das auch so belassen werden, führt aber bei der Verbindung zur 
 
 ## Spannungsversorgung / Anschluss für Schalter
 Die MCU wird mit max. 9 Vdc versorgt - Hierzu eignen sich 2-zellige LiIon- oder LiPo-Packs bzw. eine 9V Blockbatterie. 
-
 "SW" dient zum Anschluss eines (optionalen) Schalters, um die Waage ein- und ausschalten zu können. Wird kein Schalter verwendet, ist an dieser Stelle eine Drahtbrück bzw. in Jumper zu setzen. 
 
 ![image](https://github.com/user-attachments/assets/a2651875-af12-4ebc-90f6-0bc36a3a85fd)
