@@ -65,7 +65,7 @@ Weiterhin findet sich oberhalb der Anschlussplätze die Angabe der Pin-Nummern a
 
 
 ## Farbbelegung JST-Anschlussleitungen
-Alle Ports auf der Platine sind identisch aufgebaut - link = GND, rechts = Versorgungsspannung. 
+Alle Ports auf der Platine sind identisch aufgebaut - links = GND, rechts = Versorgungsspannung. 
 Je nach Hersteller der JST-Anschlussleitungen/-stecker kann die Farbbelegung aber abweichen und beachtet werden. 
 Richtig ist hier, die Leitungen an den Steckern auszupinnen (Nadel) die die Farbreihenfolge zu korrigieren.
 Alternativ kann das auch so belassen werden, führt aber bei der Verlötung mit Messwandlerplatine der Wägezellen schnell zu Fehlern. 
