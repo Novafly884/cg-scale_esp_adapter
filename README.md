@@ -13,6 +13,7 @@ Link RC-Network: https://www.rc-network.de/threads/schwerpunkt-waage-mit-arduino
 + Messwandler = HX711 Wägezellen-Messwandlerplatine zwischen Wägezelle und MCU 
 + I2C = I²C-Datenbus (Zweidraht) für die Ansteuerung des Displays
 
+
 ## Bilder zum Projekt
 
 ![1744971264482](https://github.com/user-attachments/assets/783753ec-42c8-46ff-a04b-9ad051d5e326)
@@ -41,12 +42,14 @@ C1 & C2 dienen zur Spannungsstabilisierung bzw. Filterung von Peaks auf der Vers
 
 Die Anschlüsse für das Display (DISP) und die Wägezellen (LCx) können mit allen 2,54mm-Stecksystemen (Rastermaß) ausgeführt werden. Beispiele dafür wären übliche Stiftleisten oder die JST XH-Stecksysteme, da diese auch vom Bauraum her recht klein sind. Ein direktes Anlöten der Leitungen zu den HX711-Messwandlern ist selbstverständlich möglich, wobei dann der Komfort der steckbaren Lösung "verloren" geht. 
 
+
 ## Maße / Bohrabstände
 - Platinengröße: 73 x 46 x 1,6mm.
 - Raster der Befestigungsbohrungen: 63 x 36 mm (Bohrungsdurchmesser = 2,8 mm).
   Der Isolationsbereich an den Befestigungen hat einen Durchmesser von ~5,9 mm.
 
 ![image](https://github.com/user-attachments/assets/f6eaf787-4cdb-4ef3-9480-ff2b8eb48f7b)
+
 
 ## Anschlussbelegung Messwandler & Display
 Die Messwandler und das Display werden entsprechend der Beschriftungen auf der Platine angeschlossen. 
@@ -59,6 +62,15 @@ Weiterhin findet sich oberhalb der Anschlussplätze die Angabe der Pin-Nummern a
 *Quick-Tipp: Sollte trotz korrekter Verkabelung euer Display nichts anzeigen, bitte einmal den Controllertyp in der "U8g2lib.h" in eurem Code kontrollieren! ;)*
 
 ![image](https://github.com/user-attachments/assets/83db5273-0933-493e-a880-8c954c3fe511)
+
+
+## Farbbelegung JST-Anschlussleitungen
+Alle Ports auf der Platine sind identisch aufgebaut - link = GND, rechts = Versorgungsspannung. 
+Je nach Hersteller der JST-Anschlussleitungen/-stecker kann die Farbbelegung aber abweichen und beachtet werden. 
+Richtig ist hier, die Leitungen an den Steckern auszupinnen (Nadel) die die Farbreihenfolge zu korrigieren.
+Alternativ kann das auch so belassen werden, führt aber bei der Verlötung mit Messwandlerplatine der Wägezellen schnell zu Fehlern. 
+
+![Steckerbelegung](https://github.com/user-attachments/assets/bf18a509-ce4c-46fd-ae0b-beedf91c5840)
 
 
 ## Spannungsversorgung / Anschluss für Schalter
