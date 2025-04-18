@@ -13,7 +13,15 @@ Link RC-Network: https://www.rc-network.de/threads/schwerpunkt-waage-mit-arduino
 + Messwandler = HX711 Wägezellen-Messwandlerplatine zwischen Wägezelle und MCU 
 + I2C = I²C-Datenbus (Zweidraht) für die Ansteuerung des Displays
 
+## Bilder zum Projekt
+
+![1744971264482](https://github.com/user-attachments/assets/783753ec-42c8-46ff-a04b-9ad051d5e326)
+
+![1744971264466](https://github.com/user-attachments/assets/c3d1a8e5-baf0-4414-b770-48d337b73a05)
+
 ## Layout & Bauteilübersicht
+
+![1744970330478](https://github.com/user-attachments/assets/074a66eb-03ca-45a0-9d89-6208da67a084)
 
 ![image](https://github.com/user-attachments/assets/77431425-05dd-41d7-a129-67d73d9bcfd7)
 
@@ -22,7 +30,7 @@ Link RC-Network: https://www.rc-network.de/threads/schwerpunkt-waage-mit-arduino
 | MCU | - | - | NodeMCU (ESP8266, ESP-12E) | - |
 | R1 | 20 kOhm |	10 mm |	1%, Metallschicht-Widerstand | Optional |
 | R2 | 10 kOhm |	10 mm |	1%, Metallschicht-Widerstand | Optional |
-| C1 | 220 µF |	2,54 mm |	Kondensator, gepolt (Elko), 16 Volt | Optional |
+| C1 | 220-470 µF |	2,54 mm |	Kondensator, gepolt (Elko), 16 Volt | Optional |
 | C2 | 100 nF |	2,54 mm |	Kondensator | Optional |
 | DISP; LC1-LC3 | - |	2,54 mm |	4-pol. *JST XH2.54* | - |
 
