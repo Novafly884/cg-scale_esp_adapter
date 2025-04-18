@@ -53,7 +53,7 @@ Die Anschlüsse für das Display (DISP) und die Wägezellen (LCx) können mit al
 
 ## Anschlussbelegung Messwandler & Display
 Die Messwandler und das Display werden entsprechend der Beschriftungen auf der Platine angeschlossen. 
-Die unteren Beschriftungen weisen Bezeichner auf, die auch auf euren Bauteilen zu finden sein sollten. Da diese bei den Messwandlerplatinen durchaus unterschiedlich sein können, gilt folgende Zuordnung: 
+Die unteren Beschriftungen weisen Bezeichner auf, die auch auf den weiteren Bauteilen (HX711, Display) zu finden sein sollten. Da diese bei den Messwandlerplatinen durchaus unterschiedlich sein können, gilt folgende Zuordnung: 
 + DAT = Cx (Daten)
 + CLK = Tx (Takt)
 
@@ -69,8 +69,8 @@ Alle Ports auf der Platine sind identisch aufgebaut - links = GND, rechts = Vers
 Je nach Hersteller der JST-Anschlussleitungen/-stecker kann die Farbbelegung aber abweichen!! 
 Richtig ist hier, die Leitungen an den Steckern auszupinnen (Nadel) und die Farbreihenfolge zu korrigieren.
 
-Rot = Versogungsspannung
-Schwarz = GND
++ Rot = Versogungsspannung
++ Schwarz = GND
 
 Alternativ kann das auch so belassen werden, führt aber bei der Verbindung zur Messwandlerplatine der Wägezellen schnell zu Fehlern. 
 
